@@ -1,17 +1,10 @@
-# Course: 
-# Author: 
-# Assignment: 
-# Description:
-
+#####################################################################################
+# Author: Giovanni Petroni
+# This program is a Undirected Graph class without loops, duplicate edges, and edge weights
+# It performs function tests using test arrays as checks for each aspect of the class.
+######################################################################################
 
 class UndirectedGraph:
-    """
-    Class to implement undirected graph
-    - duplicate edges not allowed
-    - loops not allowed
-    - no edge weights
-    - vertex names are strings
-    """
 
     def __init__(self, start_edges=None):
         """
